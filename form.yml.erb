@@ -121,7 +121,8 @@ attributes:
   working_dir:
     label: "Working Directory"
     widget: "path_selector"
-    value: "$HOME"
+    directory: "<%= ENV['HOME'] %>"
+    value: "<%= ENV['HOME'] %>"
     display: true
 
   modules:
